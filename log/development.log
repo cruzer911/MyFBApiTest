@@ -1388,3 +1388,23 @@ Started GET "/home/callback?code=AQB6nyM09hItdSnc-mYPhg2nRf0-SEOPBPZoqyFlaM4z8nl
   Parameters: {"code"=>"AQB6nyM09hItdSnc-mYPhg2nRf0-SEOPBPZoqyFlaM4z8nl7FtnnXHCoaKZhCE1euCNdtddoFW0DllFGAiNWO82HmhZd2HpoYem3KW7-FY4b7hDc1SvFQLr7hR0vVnEpy7FnvG7_rLwnWOaTv0F5QcyO5OmwaNur8gqYLAHJoUSeCXRyf7_6yLagvMlj6uW0Oog"}
 Rendered home/callback.html.erb (1.0ms)
 Completed 200 OK in 1367ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB6nyM09hItdSnc-mYPhg2nRf0-SEOPBPZoqyFlaM4z8nl7FtnnXHCoaKZhCE1euCNdtddoFW0DllFGAiNWO82HmhZd2HpoYem3KW7-FY4b7hDc1SvFQLr7hR0vVnEpy7FnvG7_rLwnWOaTv0F5QcyO5OmwaNur8gqYLAHJoUSeCXRyf7_6yLagvMlj6uW0Oog" for 127.0.0.1 at 2012-08-25 22:50:22 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB6nyM09hItdSnc-mYPhg2nRf0-SEOPBPZoqyFlaM4z8nl7FtnnXHCoaKZhCE1euCNdtddoFW0DllFGAiNWO82HmhZd2HpoYem3KW7-FY4b7hDc1SvFQLr7hR0vVnEpy7FnvG7_rLwnWOaTv0F5QcyO5OmwaNur8gqYLAHJoUSeCXRyf7_6yLagvMlj6uW0Oog"}
+Rendered home/callback.html.erb (15.7ms)
+Completed 200 OK in 1519ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 22:50:30 -0700
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDcWudGe-qmH0qOc14ic_4z5UsZwza2-u1qHKDOtNYoZniXdEWNhqfiqnss6QDjsiGcixUDRY84aOod7YVyNNMAatT2D9zBb5YW_Ep73z4Ahg0ef2VPpJyfEb4drPkLYDC1TI0YMX2_bc3K-5O7gp_tvcA6RdJBiy59i1Uad4YOuGWBgB8wZM0DyLibsPx-zL0" for 127.0.0.1 at 2012-08-25 22:50:32 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDcWudGe-qmH0qOc14ic_4z5UsZwza2-u1qHKDOtNYoZniXdEWNhqfiqnss6QDjsiGcixUDRY84aOod7YVyNNMAatT2D9zBb5YW_Ep73z4Ahg0ef2VPpJyfEb4drPkLYDC1TI0YMX2_bc3K-5O7gp_tvcA6RdJBiy59i1Uad4YOuGWBgB8wZM0DyLibsPx-zL0"}
+Rendered home/callback.html.erb (0.2ms)
+Completed 200 OK in 1023ms (Views: 10.0ms | ActiveRecord: 0.0ms)

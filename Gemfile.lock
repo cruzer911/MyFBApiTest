@@ -148,6 +148,7 @@ DEPENDENCIES
   rails (= 3.1.0)
   rake
   sass-rails (~> 3.1.0)
+  sqlite3
   taps
   therubyracer
   therubyrhino
