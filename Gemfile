@@ -6,9 +6,6 @@ gem 'execjs','1.4.0'
 gem 'therubyracer'
 gem 'therubyrhino'
 gem 'rake'
-gem 'taps'
-
-
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
