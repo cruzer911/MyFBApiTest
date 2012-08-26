@@ -1408,3 +1408,59 @@ Started GET "/home/callback?code=AQDcWudGe-qmH0qOc14ic_4z5UsZwza2-u1qHKDOtNYoZni
   Parameters: {"code"=>"AQDcWudGe-qmH0qOc14ic_4z5UsZwza2-u1qHKDOtNYoZniXdEWNhqfiqnss6QDjsiGcixUDRY84aOod7YVyNNMAatT2D9zBb5YW_Ep73z4Ahg0ef2VPpJyfEb4drPkLYDC1TI0YMX2_bc3K-5O7gp_tvcA6RdJBiy59i1Uad4YOuGWBgB8wZM0DyLibsPx-zL0"}
 Rendered home/callback.html.erb (0.2ms)
 Completed 200 OK in 1023ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 23:07:17 -0700
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.7ms)
+  [1m[36m (68.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.8ms)[0m  SHOW search_path
+  [1m[36m (9.4ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'schema_migrations'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+  [1m[35m (35.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 23:25:12 -0700
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb (39.6ms)
+Completed 200 OK in 107ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAZdBTfBt-M7Si59DLz9Yn_6mkbvfXg9rZuEoyn2jJf4L90TxJyAot3A7bQV9yawFfx8is0P6FDjFcO5_RBonyc6tM1JA8-HnOQ0p3AOKl0D1u31vde1tPBubQ9LQ3NTZJoYCHr6zYZfNbWquM2do4gJKxeFGMGU8REy9ryUp-IkGsN7EOFulcpyrL87hWVG6k" for 127.0.0.1 at 2012-08-25 23:25:40 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAZdBTfBt-M7Si59DLz9Yn_6mkbvfXg9rZuEoyn2jJf4L90TxJyAot3A7bQV9yawFfx8is0P6FDjFcO5_RBonyc6tM1JA8-HnOQ0p3AOKl0D1u31vde1tPBubQ9LQ3NTZJoYCHr6zYZfNbWquM2do4gJKxeFGMGU8REy9ryUp-IkGsN7EOFulcpyrL87hWVG6k"}
+Completed   in 161043ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 23:28:54 -0700
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb (41.6ms)
+Completed 200 OK in 113ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBHgF3nL63EAqSMabHMpIYANmaE4CaBc9IRb4BazWlN7_E-Ozr0He9sTDwI3SS-w1p82r3XR4F1ptn6F4HtaPoTwk0zJz4WjQLnp8Q6zgkCgBjfLIMm1rIfkYkEtHmJorrFN5G-H8smjwlCmJx4zVGB9pajgmkqSpi9Tdn5tKRj855HrH4kki6Zl5Tg0vbVrSg" for 127.0.0.1 at 2012-08-25 23:30:07 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBHgF3nL63EAqSMabHMpIYANmaE4CaBc9IRb4BazWlN7_E-Ozr0He9sTDwI3SS-w1p82r3XR4F1ptn6F4HtaPoTwk0zJz4WjQLnp8Q6zgkCgBjfLIMm1rIfkYkEtHmJorrFN5G-H8smjwlCmJx4zVGB9pajgmkqSpi9Tdn5tKRj855HrH4kki6Zl5Tg0vbVrSg"}
+Rendered home/callback.html.erb (0.9ms)
+Completed 200 OK in 9047ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBHgF3nL63EAqSMabHMpIYANmaE4CaBc9IRb4BazWlN7_E-Ozr0He9sTDwI3SS-w1p82r3XR4F1ptn6F4HtaPoTwk0zJz4WjQLnp8Q6zgkCgBjfLIMm1rIfkYkEtHmJorrFN5G-H8smjwlCmJx4zVGB9pajgmkqSpi9Tdn5tKRj855HrH4kki6Zl5Tg0vbVrSg" for 127.0.0.1 at 2012-08-25 23:31:16 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBHgF3nL63EAqSMabHMpIYANmaE4CaBc9IRb4BazWlN7_E-Ozr0He9sTDwI3SS-w1p82r3XR4F1ptn6F4HtaPoTwk0zJz4WjQLnp8Q6zgkCgBjfLIMm1rIfkYkEtHmJorrFN5G-H8smjwlCmJx4zVGB9pajgmkqSpi9Tdn5tKRj855HrH4kki6Zl5Tg0vbVrSg"}
+Rendered home/callback.html.erb (0.4ms)
+Completed 200 OK in 21272ms (Views: 18.8ms | ActiveRecord: 0.0ms)
