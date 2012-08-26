@@ -1,0 +1,10 @@
+<meta http-equiv="refresh" content="60" />
+<h><b>Post: <%= @graph_post["message"] %></b></h> <br />
+<ul>
+	<b>Comments:</b><br /> <hr>
+	<ul>
+	<% @graph_data.each do |status| %>
+	<%= status["message"] %> ...............<i><%=status["created_time"]%></i><hr> 
+	<% end %>
+	</ul>
+</ul>
