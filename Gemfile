@@ -6,6 +6,7 @@ gem 'execjs','1.4.0'
 gem 'therubyracer'
 gem 'therubyrhino'
 gem 'rake'
+gem 'taps'
 
 
 
@@ -13,7 +14,7 @@ gem 'rake'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'sqlite3'
+#gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
