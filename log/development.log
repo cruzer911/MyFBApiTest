@@ -1290,3 +1290,101 @@ Started GET "/home/callback?code=AQAIs1pJ6K-t4kuIgoumcfM6N7Rgxc_3bqAkMRvVbjf23us
   Parameters: {"code"=>"AQAIs1pJ6K-t4kuIgoumcfM6N7Rgxc_3bqAkMRvVbjf23usYrEuP7KK99EmkYTrGtmewv3Cky5rFnJeaIpObrbKaOq2yph1YjjPJQZC-dlsDe14ShcmxvfaDYkLfn5TSPlRnJlbhtsnrUdWpQ0lTOA9dC3YTWN8pB9WegrUbd2GRpqdF_9NNxkA_arDJIqFEUms"}
 Rendered home/callback.html.erb (0.8ms)
 Completed 200 OK in 1393ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 21:42:14 -0700
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 21:43:05 -0700
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb (35.2ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCl6e_ZtDRLXNa5w-l9AUCHASPR2RAv3JazvhbREJM9I7TyXdCeuUMwjf0GD4vFITBDYdJYgrtUyqekxMdUqvewdbHBgvTKMW8S9RlcyaojjAi8_rWCQdvsewGDM7u5uZIbyrL2sp4uDHn68toYf1Nc3vi-j8RbtzCBlQVuI7UMVdO7nc5GOaT-34bDB3I-FBc" for 127.0.0.1 at 2012-08-25 21:43:09 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCl6e_ZtDRLXNa5w-l9AUCHASPR2RAv3JazvhbREJM9I7TyXdCeuUMwjf0GD4vFITBDYdJYgrtUyqekxMdUqvewdbHBgvTKMW8S9RlcyaojjAi8_rWCQdvsewGDM7u5uZIbyrL2sp4uDHn68toYf1Nc3vi-j8RbtzCBlQVuI7UMVdO7nc5GOaT-34bDB3I-FBc"}
+Rendered home/callback.html.erb (0.6ms)
+Completed 200 OK in 1492ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 21:47:37 -0700
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (19.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 21:54:42 -0700
+
+PG::Error (FATAL:  role "saasbook" does not exist
+):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 21:58:10 -0700
+
+PG::Error (FATAL:  role "saasbook" does not exist
+):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (53.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 22:01:56 -0700
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 22:03:49 -0700
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 22:05:42 -0700
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-25 22:06:43 -0700
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb (19.7ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB6nyM09hItdSnc-mYPhg2nRf0-SEOPBPZoqyFlaM4z8nl7FtnnXHCoaKZhCE1euCNdtddoFW0DllFGAiNWO82HmhZd2HpoYem3KW7-FY4b7hDc1SvFQLr7hR0vVnEpy7FnvG7_rLwnWOaTv0F5QcyO5OmwaNur8gqYLAHJoUSeCXRyf7_6yLagvMlj6uW0Oog" for 127.0.0.1 at 2012-08-25 22:06:51 -0700
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB6nyM09hItdSnc-mYPhg2nRf0-SEOPBPZoqyFlaM4z8nl7FtnnXHCoaKZhCE1euCNdtddoFW0DllFGAiNWO82HmhZd2HpoYem3KW7-FY4b7hDc1SvFQLr7hR0vVnEpy7FnvG7_rLwnWOaTv0F5QcyO5OmwaNur8gqYLAHJoUSeCXRyf7_6yLagvMlj6uW0Oog"}
+Rendered home/callback.html.erb (1.0ms)
+Completed 200 OK in 1367ms (Views: 13.0ms | ActiveRecord: 0.0ms)
