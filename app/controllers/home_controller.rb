@@ -2,7 +2,7 @@ class HomeController < ActionController::Base
   
   def index   
     #Authentication using the AppID and Secret Key 
-   	session[:oauth] = Koala::Facebook::OAuth.new('433892453319919', 'f6775d603249c9ac6cd7550d267e0189', 'http://localhost:3000' + '/home/callback')
+   	session[:oauth] = Koala::Facebook::OAuth.new('433892453319919', 'f6775d603249c9ac6cd7550d267e0189', 'http://immense-sands-2213.herokuapp.com/' + '/home/callback')
 		@auth_url =  session[:oauth].url_for_oauth_code(:permissions=>"read_stream") 	
   end
 
